@@ -4,7 +4,7 @@
 
 1. [Installations](#installation)
 2. [Project Overview](#overview)
-3. [Project Statement](#Statement)
+3. [Project Motivation](#Motivation)
 4. [Metrics](#metrics)
 5. [File Descriptions](#files)
 6. [How to Interact with my project / Results](#results)
@@ -61,7 +61,7 @@ In the development of the project, the 6 stages of the CRISP-DM methodology were
 The approach, methodology and results are documented here. The conclusion of the project is that it is possible to train and test 4 different models where hit rates between 83% and 92% were found.
 Below, each performance performed on the project within the areas of the CRISP-DM methodology are presented.</p>
 
-## 3. Project Statement<a name="statement"></a>
+## 3. Project Motivation<a name="motivation"></a>
 
 <p align="justify">A marketing agency has many clients who use its service to produce advertisements for the client / client sites. They noticed that they have a high turnover of customers. They basically assign account managers at random now, but they need a machine learning model that will help predict which customers will abandon (stop buying their service) so they can correctly assign the customers at greatest risk to dismiss an account manager. . This agency has some historical data made available in a CSV file called Customer_Churn.
 This stage starts using the CRISP-DM methodology with phase 1 — Understanding the business. In this step, as mentioned above, the problem to be solved is presented. In addition, still at this stage, the main objectives that the project intends to achieve and the success criteria that will be metrics that will be used to verify that the project has reached the objectives established in the delivery of the same must be presented
@@ -136,4 +136,5 @@ This project consists of the files below:
 <ul>
 	<li><p align="justify">Book: Hands-On Machine Learning with Scikit-Learn and TensorFlow Concepts, Tools, and Techniques to Build Intelligent Systems-O’Reilly Media</p>
 	<li><p align="justify">https://www.kaggle.com/hassanamin/customer-churn</p>
+	<li><p align="justify">https://stackoverflow.com/</p>
 </ul>
