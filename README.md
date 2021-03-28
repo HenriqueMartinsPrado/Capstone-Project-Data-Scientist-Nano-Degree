@@ -54,8 +54,9 @@ Beisdes, only to complement, I developed the project using python version 3.8.5.
 
 ## 2. Project Overview<a name="overview"></a>
 
-<p align="justify">The project is based on Kaggle’s Churn Prediction and Prevention contest (https://www.kaggle.com/hassanamin/customer-churn).
-This project aims to identify the churn generation of customers. Researches involving this subject are increasingly taking place in the development areas of companies and in academia due to the need to reduce the turnover of clients by predicting the reduction or stopping the use of services. In financial terms, disabling or decreasing the use of services can represent major financial losses such as even closing a business.
+<p align="justify">The project is based on Kaggle’s Churn Prediction and Prevention contest (https://www.kaggle.com/hassanamin/customer-churn).</p><br>
+
+<p align="justify">This project aims to identify the churn generation of customers. Researches involving this subject are increasingly taking place in the development areas of companies and in academia due to the need to reduce the turnover of clients by predicting the reduction or stopping the use of services. In financial terms, disabling or decreasing the use of services can represent major financial losses such as even closing a business.
 In the development of the project, the 6 stages of the CRISP-DM methodology were used, precisely because it is a very consolidated methodology in the area of ​​data mining and with a completeness of topics to be developed and explored that allows to create data solutions. Four different types of supervised learning were also used, they were: Decision Trees, Logistic Regression, Random Forest and Naive-Bayes.
 The approach, methodology and results are documented here. The conclusion of the project is that it is possible to train and test 4 different models where hit rates between 83% and 92% were found.
 Below, each performance performed on the project within the areas of the CRISP-DM methodology are presented.</p>
