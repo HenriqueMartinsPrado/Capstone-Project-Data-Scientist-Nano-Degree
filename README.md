@@ -3,10 +3,12 @@
 ### Table of Contents
 
 1. [Installations](#installation)
-2. [Project Motivation](#motivation)
-3. [File Descriptions](#files)
-4. [How to Interact with my project / Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+2. [Project Overview](#overview)
+3. [Project Statement](#Statement)
+4. [Metrics](#metrics)
+5. [File Descriptions](#files)
+6. [How to Interact with my project / Results](#results)
+7. [Licensing, Authors, and Acknowledgements](#licensing)
 
 
 ## 1. Installations <a name="installation"></a>
@@ -50,11 +52,44 @@ Beisdes, only to complement, I developed the project using python version 3.8.5.
 
 	!python --version	
 
-## 2. Project Motivation<a name="motivation"></a>
+## 2. Project Overview<a name="overview"></a>
 
-<p align="justify">The development of this project aimed to identify the churn generation of customers. The project's motivation was to analyze patterns, trends and predictions extracted from the data using machine learning models capable of identifying the significant decrease in the use of services and products by customers generating churn. The importance of development is precisely to provide companies with the possibility to identify the decrease in consumption of their businesses and to act in order to identify the problems that caused this decrease, as well as to explore new possibilities to retain and attract new customers with differentiated services and new products.</p>
+<p align="justify">The project is based on Kaggle’s Churn Prediction and Prevention contest (https://www.kaggle.com/hassanamin/customer-churn).
+This project aims to identify the churn generation of customers. Researches involving this subject are increasingly taking place in the development areas of companies and in academia due to the need to reduce the turnover of clients by predicting the reduction or stopping the use of services. In financial terms, disabling or decreasing the use of services can represent major financial losses such as even closing a business.
+In the development of the project, the 6 stages of the CRISP-DM methodology were used, precisely because it is a very consolidated methodology in the area of ​​data mining and with a completeness of topics to be developed and explored that allows to create data solutions. Four different types of supervised learning were also used, they were: Decision Trees, Logistic Regression, Random Forest and Naive-Bayes.
+The approach, methodology and results are documented here. The conclusion of the project is that it is possible to train and test 4 different models where hit rates between 83% and 92% were found.
+Below, each performance performed on the project within the areas of the CRISP-DM methodology are presented.</p>
 
-## 3. File Descriptions<a name="files"></a>
+## 3. Project Statement<a name="statement"></a>
+
+<p align="justify">A marketing agency has many clients who use its service to produce advertisements for the client / client sites. They noticed that they have a high turnover of customers. They basically assign account managers at random now, but they need a machine learning model that will help predict which customers will abandon (stop buying their service) so they can correctly assign the customers at greatest risk to dismiss an account manager. . This agency has some historical data made available in a CSV file called Customer_Churn.
+This stage starts using the CRISP-DM methodology with phase 1 — Understanding the business. In this step, as mentioned above, the problem to be solved is presented. In addition, still at this stage, the main objectives that the project intends to achieve and the success criteria that will be metrics that will be used to verify that the project has reached the objectives established in the delivery of the same must be presented
+In this way, the specific objectives of the project are to answer the following questions:
+
+	<ul>
+		<li><p align="justify">Is it possible to achieve a hit rate above 80% in the customer’s churn forecast?</li>
+		<li><p align="justify">What is the level of correlation between the variables age, year and total_pucharse?</li>
+		<li><p align="justify">Is the solution developed passive to be applied in a way that the business identified benefits?</li>
+	</ul>
+
+As the historical data set used has a target variable that shows which customers were marked as Churn and is a classification problem, I will be using 4 different types of supervised learning models, they are: Decision Trees, Logistic Regression, Random Forest and Naive -Bayes. These models used will help to classify whether a customer has given up or not. The company can then test this against the data received for future customers in order to predict which customers will disconnect and assign an account manager to them.</p>
+
+## 4. Metrics<a name="metrics"></a>
+
+<p align="justify">A marketing agency has many clients who use its service to produce advertisements for the client / client sites. They noticed that they have a high turnover of customers. They basically assign account managers at random now, but they need a machine learning model that will help predict which customers will abandon (stop buying their service) so they can correctly assign the customers at greatest risk to dismiss an account manager. . This agency has some historical data made available in a CSV file called Customer_Churn.
+This stage starts using the CRISP-DM methodology with phase 1 — Understanding the business. In this step, as mentioned above, the problem to be solved is presented. In addition, still at this stage, the main objectives that the project intends to achieve and the success criteria that will be metrics that will be used to verify that the project has reached the objectives established in the delivery of the same must be presented
+In this way, the specific objectives of the project are to answer the following questions:
+
+	<ul>
+		<li><p align="justify">Is it possible to achieve a hit rate above 80% in the customer’s churn forecast?</li>
+		<li><p align="justify">What is the level of correlation between the variables age, year and total_pucharse?</li>
+		<li><p align="justify">Is the solution developed passive to be applied in a way that the business identified benefits?</li>
+	</ul>
+
+As the historical data set used has a target variable that shows which customers were marked as Churn and is a classification problem, I will be using 4 different types of supervised learning models, they are: Decision Trees, Logistic Regression, Random Forest and Naive -Bayes. These models used will help to classify whether a customer has given up or not. The company can then test this against the data received for future customers in order to predict which customers will disconnect and assign an account manager to them.</p>
+
+
+## 5. File Descriptions<a name="files"></a>
 
 This project consists of the files below:
 
@@ -64,7 +99,7 @@ This project consists of the files below:
 	<li>EDA - Project - Predict Churning Customers.html: Within phase 2 of CRISP-DM, where the data is understood, in addition to doing analysis via the command line in python, I explored the use of the pandas_profiling library to generate a report that provides an exploratory analysis of the data set used. The interesting thing is that through this report, a more comprehensive view of the data set can be obtained and this view can be easily and quickly shared with everyone involved in a business project.
 </ul>
 
-## 4. How to Interact with my project / Results<a name="results"></a>
+## 6. How to Interact with my project / Results<a name="results"></a>
 
 <p align="justify">In the development of the project, the 6 stages of the CRISP-DM methodology were used, precisely because it is a very consolidated methodology in the area of data mining and with a completeness of topics to be developed and explored that allows to create data solutions.</p>
 
@@ -83,8 +118,7 @@ This project consists of the files below:
 	<li><p align="justify">The last phase, phase 6 - Deploy, is where the implementation is made, it can be delivered in several ways, for example, creating an application for data consumption by those involved, making the model available through the persistence of the trained model using the Pickle library python and etc. For this project, only the development of the case study was generated. The availability for consumption of the data will be developed as a point to improve the structure of this project.</p>
 </ol>
 
-<p align="justify">Despite the immense value created through the development of python code to handle the data according to the purpose of each stage of the CRISP-DM methodology, the greatest value is to answer the questions defined at the beginning of the project so that they can generate value in decision making. Thus, the questions and respective answers of each one can be checked below:</p>
-
+<p align="justify">Answering the main questions of the project:
 <ul>
 	<li><p align="justify">Is it possible to achieve a hit rate above 80% in the customer's churn forecast?
 	Following the steps of the CRISP-DM methodology, it was possible to carry out an organized and evolutionary process for the development of a data solution. Through these steps, it was possible to train and test 4 different models where hit rates between 83% and 92% were found.</p>
@@ -96,7 +130,7 @@ This project consists of the files below:
 
 <p align="justify">Finally, for reflective purposes only, applying data to different models is a good practice for evaluating different possibilities and choosing the one with the best accuracy for a forecast. There are several libraries focused on machine learning that can be applied in this context and expand the options for checking forecasts. In this case, the most suitable model due to its performance was the Naive Bayes.</p>
 
-## 5. Licensing, Authors, Acknowledgements, etc.<a name="licensing"></a>
+## 7. Licensing, Authors, Acknowledgements, etc.<a name="licensing"></a>
 
 <ul>
 	<li><p align="justify">Book: Hands-On Machine Learning with Scikit-Learn and TensorFlow Concepts, Tools, and Techniques to Build Intelligent Systems-O’Reilly Media</p>
