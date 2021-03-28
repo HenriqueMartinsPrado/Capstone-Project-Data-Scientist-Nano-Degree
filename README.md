@@ -66,11 +66,11 @@ Below, each performance performed on the project within the areas of the CRISP-D
 This stage starts using the CRISP-DM methodology with phase 1 — Understanding the business. In this step, as mentioned above, the problem to be solved is presented. In addition, still at this stage, the main objectives that the project intends to achieve and the success criteria that will be metrics that will be used to verify that the project has reached the objectives established in the delivery of the same must be presented
 In this way, the specific objectives of the project are to answer the following questions:
 
-	<ul>
-		<li><p align="justify">Is it possible to achieve a hit rate above 80% in the customer’s churn forecast?</li>
-		<li><p align="justify">What is the level of correlation between the variables age, year and total_pucharse?</li>
-		<li><p align="justify">Is the solution developed passive to be applied in a way that the business identified benefits?</li>
-	</ul>
+<ul>
+	<li><p align="justify">Is it possible to achieve a hit rate above 80% in the customer’s churn forecast?</li>
+	<li><p align="justify">What is the level of correlation between the variables age, year and total_pucharse?</li>
+	<li><p align="justify">Is the solution developed passive to be applied in a way that the business identified benefits?</li>
+</ul>
 
 As the historical data set used has a target variable that shows which customers were marked as Churn and is a classification problem, I will be using 4 different types of supervised learning models, they are: Decision Trees, Logistic Regression, Random Forest and Naive -Bayes. These models used will help to classify whether a customer has given up or not. The company can then test this against the data received for future customers in order to predict which customers will disconnect and assign an account manager to them.</p>
 
@@ -80,11 +80,11 @@ As the historical data set used has a target variable that shows which customers
 This stage starts using the CRISP-DM methodology with phase 1 — Understanding the business. In this step, as mentioned above, the problem to be solved is presented. In addition, still at this stage, the main objectives that the project intends to achieve and the success criteria that will be metrics that will be used to verify that the project has reached the objectives established in the delivery of the same must be presented
 In this way, the specific objectives of the project are to answer the following questions:
 
-	<ul>
-		<li><p align="justify">Is it possible to achieve a hit rate above 80% in the customer’s churn forecast?</li>
-		<li><p align="justify">What is the level of correlation between the variables age, year and total_pucharse?</li>
-		<li><p align="justify">Is the solution developed passive to be applied in a way that the business identified benefits?</li>
-	</ul>
+<ul>
+	<li><p align="justify">Is it possible to achieve a hit rate above 80% in the customer’s churn forecast?</li>
+	<li><p align="justify">What is the level of correlation between the variables age, year and total_pucharse?</li>
+	<li><p align="justify">Is the solution developed passive to be applied in a way that the business identified benefits?</li>
+</ul>
 
 As the historical data set used has a target variable that shows which customers were marked as Churn and is a classification problem, I will be using 4 different types of supervised learning models, they are: Decision Trees, Logistic Regression, Random Forest and Naive -Bayes. These models used will help to classify whether a customer has given up or not. The company can then test this against the data received for future customers in order to predict which customers will disconnect and assign an account manager to them.</p>
 
